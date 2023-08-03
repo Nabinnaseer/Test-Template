@@ -1,0 +1,77 @@
+*{
+    font-family: didot;
+}
+h1{
+    color: #333;
+}
+.navbar{
+    border-bottom: 5px solid green;
+    box-shadow: 1px 1px 10px 1px #333;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+#about{
+  background-image: url("img/green.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px 1px #333;
+  color: aliceblue;
+  padding-top: 170px;
+}
+#contact-btn,#form-btn,#about-content-btn,#about a{
+    background-color: green;
+    text-decoration: none;
+    border-radius: 0%;
+    border-color: green;
+    width: 200px;
+    box-shadow: 1px 1px 10px 1px #333;
+    border-bottom: 5px solid white;
+}
+#contact-btn:hover,#about-content-btn:hover,#about a:hover,#form-btn:hover{
+    background-color: aliceblue;
+    color: green;
+    border-bottom: 5px solid green;
+}
+#about-img img{
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow:10px 10px 0px 0px black;
+}
+#about-content{
+    padding: 20px;
+}
+#slidshow{
+    min-height: 50px;
+    background-color: black;
+    color: white;
+}
+#slidshow p{
+    padding: 50px;
+}
+#career-card{
+    padding:10px;
+}
+#career-pics{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#contact-container{
+    padding: 30px;
+}
+#contact-row{
+    justify-content: center;
+}
+#footer{
+    background-color: black;
+    height: 70px;
+    padding: 15px;
+}
+#footer h3{
+    color: aliceblue;
+}

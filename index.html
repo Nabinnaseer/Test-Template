@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS File link -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Website</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#service">Services</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#career">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid" id="about">
+        <center>
+            <h3>Hello World</h3>
+            <p><b>Let's get started</b></p>
+            <a href="#" class="btn btn-primary"><b>Click Here</b></a>
+        </center>
+      </div>
+
+      <div class="container-fluid">
+        <hr>
+        <div class="row">
+          <div class="col-lg-6" id="about-img">
+            <img src="img/green.jpg" alt="">
+          </div>
+          <div class="col-lg-6" id="about-content">
+            <center>
+              <h3>About Us</h3>
+              <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                as opposed to using 'Content here, content here', making it look like readable English.</p>
+                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                  as opposed to using 'Content here, content here', making it look like readable English.</p>
+                  <a href="" class="btn btn-primary" id="about-content-btn"><b>Start Here</b></a>
+            </center>
+          </div>
+        </div>
+
+      </div>
+
+      <hr id="service">
+      <center>
+        <h1>Services</h1>
+      </center>
+      <hr>
+
+      <div class="card-group" >
+        <div class="card">
+          <img src="img/green.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Services #1</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/green.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Services #2</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/green.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Services #3</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/green.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Services #4</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+
+     <hr>
+     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="slidshow">
+        <div class="carousel-item active">
+          <p>" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. "</p>
+        </div>
+        <div class="carousel-item">
+          <p>" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. "</p>
+        </div>
+        <div class="carousel-item">
+          <p>" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. "</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <hr id="career">
+    <center>
+      <h1>
+        Meet the team
+      </h1>
+    </center>
+    <hr>
+
+    <div class="card-group">
+      <div class="card" id="career-card">
+        <center><img src="img/green.jpg" class="card-img-top" alt="..." id="career-pics">
+        <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        </center>
+      </div>
+      <div class="card" id="career-card">
+        <center><img src="img/green.jpg" class="card-img-top" alt="..." id="career-pics">
+        <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        </center>
+      </div>
+      <div class="card" id="career-card">
+        <center><img src="img/green.jpg" class="card-img-top" alt="..." id="career-pics">
+        <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        </center>
+      </div>
+      <div class="card" id="career-card">
+        <center><img src="img/green.jpg" class="card-img-top" alt="..." id="career-pics">
+        <div class="card-body">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        </center>
+      </div>
+      </div>
+
+      <hr>
+    <center>
+      <h1>
+        Wanna join us ?
+      </h1>
+    </center>
+    <hr>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <center><h3>We're Hiring</h3></center>
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Job Opening #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                   content here', making it look like readable English.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Job Opening #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                   content here', making it look like readable English.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Job Opening #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                   content here', making it look like readable English.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                  Job Opening #4
+                </button>
+              </h2>
+              <div id="flush-collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                   content here', making it look like readable English.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                  Job Opening #5
+                </button>
+              </h2>
+              <div id="flush-collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                   content here', making it look like readable English.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+                  Job Opening #6
+                </button>
+              </h2>
+              <div id="flush-collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+                   content here', making it look like readable English.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <center><h3>Application Form</h3></center>
+          <form class="was-validated">
+
+            <div class="md-3">
+              <label for="validationTextarea" class="form-label">Email</label>
+              <input type="text" class="form-control" required>
+              <div class="invalid-feedback">
+                Please enter your Email-id
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="validationTextarea" class="form-label">Cover Letter</label>
+              <textarea class="form-control" id="validationTextarea" placeholder="Required" required></textarea>
+              <div class="invalid-feedback">
+                Please enter a Cover Letter.
+              </div>
+            </div>
+              
+            <div class="mb-3">
+              <select class="form-select" required aria-label="select example">
+                <option value="">Select Job to apply</option>
+                <option value="1">Job 1</option>
+                <option value="2">Job 2</option>
+                <option value="3">Job 3</option>
+                <option value="4">Job 4</option>
+                <option value="5">Job 5</option>
+                <option value="6">Job 6</option>
+              </select>
+              <div class="invalid-feedback">Required</div>
+            </div>
+          
+            <div class="mb-3">
+              <label for="validationTextarea" class="form-label">Upload Resume</label>
+              <input type="file" class="form-control" aria-label="file example" required>
+              <div class="invalid-feedback">Required</div>
+            </div>
+
+            <div class="form-check mb-3">
+              <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+              <label class="form-check-label" for="validationFormCheck1">Everything I Entered is True</label>
+              <div class="invalid-feedback">Required</div>
+            </div>
+          
+            <div class="mb-3">
+              <a href="" id="form-btn" class="btn btn-primary" type="submit">Apply Here</a>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner" id="slidshow">
+        <div class="carousel-item active">
+          <p>" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. "</p>
+        </div>
+        <div class="carousel-item">
+          <p>" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. "</p>
+        </div>
+        <div class="carousel-item">
+          <p>" It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. "</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <center>
+      <h1>Contact Us ?</h1>
+    </center>
+    <hr>
+
+    <div class="container-fluid" id="contact">
+      <div class="container" id="contact-container">
+        <div class="row" id="contact-row">
+          
+          <div class="col-lg-6">
+
+            <form action="" class="was-validated">
+
+              <div class="md-3">
+                <label for="validationTextarea" class="form-label">Name</label>
+                <input type="text" class="form-control" required>
+                <div class="invalid-feedback">
+                  Please enter your Name
+                </div>
+              </div>
+              <div class="md-3">
+                <label for="validationTextarea" class="form-label">Email</label>
+                <input type="text" class="form-control" required>
+                <div class="invalid-feedback">
+                  Please enter your Email-id
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Message</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Required" required></textarea>
+                <div class="invalid-feedback">
+                  Enter your message here.
+                </div>
+              </div>
+              <div class="mb-3">
+                <a href="" id="contact-btn" class="btn btn-primary" type="submit">Send  <i class="bi bi-send-fill"></i>  </a>
+              </div>
+            </form>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <div class="container-fluid" id="footer">
+      <center>
+        <h3>Thank you for visiting us</h3>
+      </center>
+    </div>
+
+</body>
+</html>
